@@ -15,6 +15,12 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a href="{{ route('posts.index') }}" class="nav-link">See The Posts</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
